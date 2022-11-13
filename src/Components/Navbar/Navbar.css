@@ -1,0 +1,71 @@
+.small-navbar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 50px;
+    background: #333333;
+    height: 25px;
+    font-size: 14px;
+}
+
+.small-navbar a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+
+    background: #e6e6e6;
+    /* color: #ffff; */
+    height: 70px;
+}
+.main-navbar h2{
+    font-size: 1.7em;
+    font-weight: 800;
+    color: black;
+}
+
+.main-navbar a{
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+    color: black;
+    font-weight: 550;
+
+}
+.searchbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    /* this height will help to adjust the size of icon */
+    height: 40px;
+    width: 350px;
+    padding: 12px 20px;
+    border-radius: 22px 0 0 22px;
+    border: none;
+    outline: 1px solid black;
+    background-color: #f2f2f2;
+}
+
+.search-btn{
+    padding: 12px 20px;
+    height: 40px;
+    border-radius: 0 22px 22px 0;
+    /* outline: none; */
+    border: none;
+    background: #333333;
+    color: #ffff;
+    font-weight: 550;
+    outline: 1px solid black;
+    font-size: 17px;
+    
+}
