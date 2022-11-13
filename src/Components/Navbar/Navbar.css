@@ -28,6 +28,7 @@
     font-size: 1.7em;
     font-weight: 800;
     color: black;
+    
 }
 
 .main-navbar a{
@@ -48,7 +49,7 @@
 .search-box{
     /* this height will help to adjust the size of icon */
     height: 40px;
-    width: 350px;
+    width: 450px;
     padding: 12px 20px;
     border-radius: 22px 0 0 22px;
     border: none;

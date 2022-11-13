@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faBell, faMagnifyingGlass, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
@@ -19,13 +19,12 @@ const Navbar = () => {
                
                     <input className='search-box' type="search" placeholder='Search...'></input>
             
-                    {/* <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon> */}
-                    {/* <input className='search-btn' type=''></input> */}
                     <button className='search-btn'><FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon></button>
                     
                    
                 </div>
                 <div className='main-nav-anchor'>
+                <a href='##' className='notification'><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon> Wishlist</a>
                     <a href='##'>Offers</a>
                     <a href='##' className='notification'><FontAwesomeIcon icon={faBell}></FontAwesomeIcon></a>
                 </div>

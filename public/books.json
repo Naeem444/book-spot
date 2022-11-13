@@ -1,7 +1,7 @@
 [
     {
-      "_id": "6370c9b8b140962303ff0ab0",
-      "img": "https://ibb.co/zR7wGGW",
+      "id": "6370c9b8b140962303ff0ab0",
+      "img": "images/final7habits.jpg",
       "name": "The 7 Habits of Highly Effective People",
       "genre": "Self-help",
       "author": "Stephen R. Covey",
@@ -10,8 +10,8 @@
       "ratings": "4.2"
     },
     {
-      "_id": "6370c9b88a612822c3a65023",
-      "img": "https://ibb.co/0MT2Nb9",
+      "id": "6370c9b88a612822c3a65023",
+      "img": "images/atomichabit.jpg",
       "name": "Atomic Habits",
       "genre": "Self-help",
       "author": "James Clear",
@@ -20,8 +20,8 @@
       "ratings": "4.1"
     },
     {
-      "_id": "6370c9b84aa98b8edeb0431f",
-      "img": "https://ibb.co/vdPV1G2",
+      "id": "6370c9b84aa98b8edeb0431f",
+      "img": "images/finalbuildapis.png",
       "name": "Build APIs You Won't Hate",
       "genre": "Programming",
       "author": "Phil Sturgeon",
@@ -30,8 +30,8 @@
       "ratings": "4.7"
     },
     {
-      "_id": "6370c9b8eb98a19b15721d5d",
-      "img": "https://ibb.co/51PMnTg",
+      "id": "6370c9b8eb98a19b15721d5d",
+      "img": "images/finalbuildingastorybrand.png",
       "name": "Building a Story Brand",
       "genre": "Marketing",
       "author": "Donald Miller",
@@ -40,8 +40,8 @@
       "ratings": "4.3"
     },
     {
-      "_id": "6370c9b81ce418247a84e665",
-      "img": "https://ibb.co/4MLBJbd",
+      "id": "6370c9b81ce418247a84e665",
+      "img": "images/elon-musk.jpg",
       "name": "Elon Musk: How The Billionire CEO of SpaceX and Tesla is Shaping Our Future",
       "genre": "Biography",
       "author": "Ashlee Vance",
@@ -50,8 +50,8 @@
       "ratings": "4.2"
     },
     {
-      "_id": "6370c9b83adf89202d47d04d",
-      "img": "https://ibb.co/g6HX9L8",
+      "id": "6370c9b83adf89202d47d04d",
+      "img": "images/finalrichdadpoordad.jpg",
       "name": "Rich Dad Poor Dad",
       "genre": "Personal Finance",
       "author": "Robert T. Kiyosaki",
@@ -60,8 +60,8 @@
       "ratings": "4.1"
     },
     {
-      "_id": "6370c9b831b2923e8d80be26",
-      "img": "https://ibb.co/nws6Tgg",
+      "id": "6370c9b831b2923e8d80be26",
+      "img": "images/finalshoedog.jpg",
       "name": "Shoe Dog",
       "genre": "Biography",
       "author": "Phil Knight",
@@ -70,8 +70,8 @@
       "ratings": "4.3"
     },
     {
-      "_id": "6370c9b88bcfe75e9936a32d",
-      "img": "https://ibb.co/8Nbn0hf",
+      "id": "6370c9b88bcfe75e9936a32d",
+      "img": "images/finaltheAlchemist.jpg",
       "name": "The Alchemist",
       "genre": "Novel, adventure, Quest, Fantasy Fiction",
       "author": "Paulo Coelho",
@@ -80,8 +80,8 @@
       "ratings": "3.9"
     },
       {
-      "_id": "6370c9b88bcfe75e9936a32d",
-      "img": "https://ibb.co/VDvTBhN",
+      "id": "6370c9b88ccfe75e9936a32d",
+      "img": "images/finalzerotoone.jpg",
       "name": "Zero to One",
       "genre": "Business",
       "author": "Peter Thiel with Blake Masters",
