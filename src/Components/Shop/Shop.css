@@ -1,6 +1,8 @@
 .shop-container{
     display: flex;
     width: 100%;
+    margin-top: 100px;
+    z-index: 0;
 }
 
 .product-section{
@@ -26,7 +28,7 @@
     align-items: center;
 }
 
-.cart-section button{
+.cart-btn{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -40,10 +42,13 @@
    background-color: #333333;
    color: #ffff;
    border-radius: 10px 0 0 10px;
+   outline: 0;
+   border: 0;
    
 }
-.cart-section button:hover{
+.cart-btn:hover{
     background-color: #1a1a1a;
+    cursor: pointer;
 }
 
 .cart-btn-text{

@@ -27,8 +27,8 @@ const Products = (props) => {
                     {/* <small>Author: <span>{author}</span></small> */}
 
                     <div className='add-to-cart-btn'>
-                    <h2> ${price}</h2>
-                        <button><FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon> </button>
+                    <h2><span>৳ </span>{price}</h2>
+                        <button onClick={()=>props.handleAddToCart(props.product)}><FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon> </button>
                     </div>
 
                 </div>

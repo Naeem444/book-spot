@@ -1,0 +1,47 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+
+    top: 95px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    position: fixed;
+}
+
+.modal-content{
+    width: 800px;
+    background-color: #ffff;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+    
+
+
+}
+
+.modal-body{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cart-products{
+    margin-right: 20px;
+    width: 50%;
+}
+
+.cart-calculation{
+    margin-left: 20px;
+}

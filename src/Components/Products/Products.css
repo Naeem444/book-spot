@@ -78,4 +78,10 @@
 }
 .add-to-cart-btn button:hover{
     background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+.add-to-cart-btn span{
+    font-size: 1.4em;
+    
 }
