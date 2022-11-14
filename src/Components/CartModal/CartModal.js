@@ -4,27 +4,51 @@ import "./CartModal.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark} from '@fortawesome/free-solid-svg-icons'
 import CartElement from '../CartElement/CartElement';
+import RandomProduct from '../RandomProduct/RandomProduct';
 
 const CartModal = (props) => {
+    //state to show the cart element div
     const [showElement, setShowElement] = useState(true);
+    //here storing the random object
+    const [randomProduct, setRandomProduct]= useState([]);
+
+    //state to show/hide random data from ui
+    const [randomShow, setRandomShow] = useState(false);
+
    
     const {cartData} = props;
-    
-
     if(!props.show){
         return null;
     }
 
-    //state to show the cart element div
     
-
-    const deleteCart=(cartProduct, state)=>{
-        const index = cartData.indexOf(cartProduct);
-        if(index > -1){
-            cartData.splice(index, 1);
-            setShowElement(state);
-        }
+ 
+    // const deleteCart=(cartProduct, state)=>{
+    //     const index = cartData.indexOf(cartProduct);
+    //     if(index > -1){
+    //         cartData.splice(index, 1);
+    //         setShowElement(state);
+    //     }
         
+    // }
+    
+    //handle random
+    const handleRandom=()=>{
+        let productElement = cartData[Math.floor(Math.random()*cartData.length)];
+        setRandomProduct(productElement);
+
+        setRandomShow(true);
+       
+        
+        
+    }
+    const resetCart=(state)=>{
+        setShowElement(state);
+        setRandomShow(state);
+        setRandomProduct([]);
+        window.location.reload();
+
+
     }
 
     return (
@@ -35,7 +59,7 @@ const CartModal = (props) => {
                     <div className='modal-header'>
                         <h3>My Cart</h3>
                         <div>
-                        <button onClick={props.onClose}><FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></button>
+                        <button className='x-btn' onClick={props.onClose}><FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></button>
                         </div>
 
                     </div>
@@ -46,7 +70,7 @@ const CartModal = (props) => {
                                 cartData.map(cartProduct=> <CartElement
                                 key={cartData.id}
                                 cart={cartProduct}
-                                deleteCart={deleteCart}
+                                // deleteCart={deleteCart}
 
                                 showElement={showElement}
                                 
@@ -57,8 +81,21 @@ const CartModal = (props) => {
 
 
                         </div>
-                        <div className='cart-calculation'>
-                            Here calculation will be shown
+                        <div className='cart-lucky-one-generator'>
+                            <div>
+                                <RandomProduct 
+                                product={randomProduct} 
+                                handleRandom={handleRandom}
+                                randomShow={randomShow}>
+                                    
+                                </RandomProduct>
+                            </div>
+
+                            <div className='cart-random-reset-btn'>
+                                <button className='cart-random-btn' onClick={handleRandom}>Choose Randomly</button>
+                                <button onClick={()=>resetCart(false)} className='cart-reset-btn'>Reset</button>
+
+                            </div>
 
                         </div>
 
