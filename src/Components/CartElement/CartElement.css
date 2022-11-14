@@ -35,3 +35,44 @@
 .delete-cart-element:hover{
     cursor: pointer;
 }
+
+@media  screen and (max-width: 700px){
+    .cart-element-container{
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        line-height: 0.9em;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 0 10px;
+        width: 250px;
+        
+    }
+   
+    
+    .cart-image-container {
+        width:40px;
+        height:40px;
+        margin-right: 10px;
+        
+    
+    }
+    .cart-product-details{
+        width: 90px;
+    }
+    
+    .cart-image-container img{
+        width: 40px;
+        border-radius: 10px;
+        
+    }
+    
+    .delete-cart-element{
+        color: #737373;
+        font-size: 17px;
+    }
+    .delete-cart-element:hover{
+        cursor: pointer;
+    }
+}

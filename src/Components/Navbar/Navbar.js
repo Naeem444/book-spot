@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
+import "./NavbarMobile.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faMagnifyingGlass, faHeart } from '@fortawesome/free-solid-svg-icons'
 

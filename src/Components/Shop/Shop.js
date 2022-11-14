@@ -26,16 +26,8 @@ const Shop = () => {
             setCart(newCart);
         }
        
-        
-
-
-
     }
-    // console.log(cart);
-
-
-
-
+ 
     //modal handling
     const [show, setShow] = useState(false);
 

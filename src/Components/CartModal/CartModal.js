@@ -34,8 +34,13 @@ const CartModal = (props) => {
     
     //handle random
     const handleRandom=()=>{
-        let productElement = cartData[Math.floor(Math.random()*cartData.length)];
-        setRandomProduct(productElement);
+        if (cartData.length >0){
+            let productElement = cartData[Math.floor(Math.random()*cartData.length)];
+            setRandomProduct(productElement);
+        }
+        else{
+            window.location.reload();
+        }
 
         setRandomShow(true);
        
