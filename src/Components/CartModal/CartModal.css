@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     background: rgba(0,0,0,0.3);
-
     top: 95px;
     right: 0;
     bottom: 0;
@@ -35,31 +34,42 @@
 
     padding: 0 20px;
     
-
-
 }
 
 .modal-body{
     display: flex;
     align-items: center;
     padding: 10px 20px;
+    height: 65vh;
 }
 
 .cart-products{
     margin-right: 20px;
     width: 50%;
 }
+.divider {
+    height: 60vh;
+    width: 2px;
+    background: gray;
+}
 
 .cart-lucky-one-generator{
     margin-left: 20px;
     width: 50%;
+}
+.random-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .cart-random-reset-btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 30%; */
+  
    
 }
 
@@ -145,23 +155,46 @@
         flex-direction: column;
         align-items: center;
         padding: 10px 10px;
-        overflow-y: auto;
-        max-height: 600px;
+        overflow-y: scroll;
+        max-height: 400px;
         
+    }
+    .divider {
+        height: 60vh;
+        width: 2px;
+        background: gray;
+        display: none;
+    }
+
+    .cart-products{
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .random-product{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
     
  
-   
+    .cart-lucky-one-generator{
+        margin-left: 0;
+        width: 100%;
+    }
+    
     .cart-random-reset-btn{
-        
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         /* height: 30%; */
        
     }
-    
     
     
     .cart-random-btn{

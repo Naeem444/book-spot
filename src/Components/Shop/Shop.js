@@ -50,6 +50,11 @@ const Shop = () => {
 
                     }
 
+                    <p>Props vs State: props are variables passed to it by its parent component. State is still variables, but directly initialized and managed by the component.
+                    We send props via attribute of a component. We use state to keep track of certain changes in any event. props are read only and state change can be asynchronous. Props cannot be modified. States can be modified using this.setState.    
+                    </p>
+                    <p>How useState Works: usestate hook helps us to have state variables in function components. The function components are not stateless anymore. Due to this reason, React suggests calling them “function components”. useState is a function that accepts the initial state as an argument and returns a state value and a function to update value. </p>
+
 
                 </div>
                
