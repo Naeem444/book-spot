@@ -35,15 +35,14 @@
     grid-gap: 20px;
 
     padding: 10px 20px;
-    /* font-size: 20px; */
-   position: fixed;
-   right: 0;
+    position: fixed;
+    right: 0;
 
-   background-color: #333333;
-   color: #ffff;
-   border-radius: 10px 0 0 10px;
-   outline: 0;
-   border: 0;
+    background-color: #333333;
+    color: #ffff;
+    border-radius: 10px 0 0 10px;
+    outline: 0;
+    border: 0;
    
 }
 .cart-btn:hover{
@@ -81,7 +80,7 @@
 
 }
 
-@media  screen and (max-width: 700px){
+@media  screen and (max-width: 480px){
     .shop-container{
         display: flex;
         width: 100%;
@@ -91,12 +90,10 @@
     
     .product-section{
         margin: 90px 10px;
-        /* width: 1000px; */
         
     
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* grid-gap: 10px; */
         
     }
     
@@ -118,16 +115,15 @@
         justify-content: center;
         grid-gap: 20px;
     
-        padding: 10px 20px;
-        /* font-size: 20px; */
-       position: fixed;
-       right: 0;
+        padding: 10px 15px;
+        position: fixed;
+        right: 0;
     
-       background-color: #333333;
-       color: #ffff;
-       border-radius: 10px 0 0 10px;
-       outline: 0;
-       border: 0;
+        background-color: #333333;
+        color: #ffff;
+        border-radius: 10px 0 0 10px;
+        outline: 0;
+        border: 0;
        
     }
     .cart-btn:hover{
@@ -136,10 +132,10 @@
     }
     
     .cart-btn-text{
-        font-size: 15px;
+        font-size: 12px;
     }
     .cart-btn-icon{
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .cart-icon-lg{
@@ -148,7 +144,8 @@
     }
     
     .cart-badge{
-        width: 15px;
+        width: 8px;
+        height: 8px;
         padding: 5px;
         color:#ffff;
         background-color: rgb(223, 23, 23);
@@ -157,7 +154,7 @@
         top: -10px;
         right: -10px;
         border: 1px solid #333333;
-        font-size: 12px;
+        font-size: 9px;
         display: flex;
         justify-content:center;
         align-items: center;

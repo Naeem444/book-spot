@@ -82,7 +82,6 @@ const CartModal = (props) => {
 
 
                         </div>
-                        <div class="divider"></div>
                         <div className='cart-lucky-one-generator'>
                             <div className='random-product'>
                                 <h5>Randomly Choosen Product</h5>

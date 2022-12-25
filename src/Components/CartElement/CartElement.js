@@ -11,7 +11,7 @@ const CartElement = (props) => {
 
     const { name, img, price} = props.cart;
     
-    const productName = name.length < 65 ? name : name.slice(0, 65).concat("...");
+    const productName = name.length < 35 ? name : name.slice(0, 35).concat("...");
 
     return (
         <div className='cart-product-card'>

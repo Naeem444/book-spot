@@ -29,7 +29,7 @@ const Shop = () => {
     }
     //delete from cart
     const deleteCart = (cartProduct)=>{
-        const restProducts = cart.filter(product=> product.id != cartProduct.id);
+        const restProducts = cart.filter(product=> product.id !== cartProduct.id);
         setCart(restProducts);
     }
  
