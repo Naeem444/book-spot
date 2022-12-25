@@ -28,10 +28,10 @@ const RandomProduct = (props) => {
                             <h5>{productName}</h5>
                             <h5>৳ {price}</h5>
                         </div>
-                        <div className='delete-cart-element' >
-                {/* onClick={()=>props.deleteCart(props.cart, false)} */}
+                        {/* <button className='delete-cart-element' >
+                onClick={()=>props.deleteCart(props.cart, false)}
                             <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
-                        </div>
+                        </button> */}
                 
                     </div>
 

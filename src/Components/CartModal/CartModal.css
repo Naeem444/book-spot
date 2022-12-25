@@ -38,7 +38,6 @@
 
 .modal-body{
     display: flex;
-    align-items: center;
     padding: 10px 20px;
     height: 65vh;
 }
@@ -46,6 +45,9 @@
 .cart-products{
     margin-right: 20px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
 }
 .divider {
     height: 60vh;
@@ -153,7 +155,6 @@
     .modal-body{
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding: 10px 10px;
         overflow-y: scroll;
         max-height: 400px;
@@ -192,7 +193,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /* height: 30%; */
        
     }
     

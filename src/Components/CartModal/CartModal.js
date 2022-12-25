@@ -23,14 +23,9 @@ const CartModal = (props) => {
 
     
  
-    // const deleteCart=(cartProduct, state)=>{
-    //     const index = cartData.indexOf(cartProduct);
-    //     if(index > -1){
-    //         cartData.splice(index, 1);
-    //         setShowElement(state);
-    //     }
+    
         
-    // }
+    
     
     //handle random
     const handleRandom=()=>{
@@ -72,10 +67,11 @@ const CartModal = (props) => {
                         <div className='cart-products'>
                             
                             {
-                                cartData.map(cartProduct=> <CartElement
+                                cartData.map(cartProduct=> 
+                                <CartElement
                                 key={cartData.id}
                                 cart={cartProduct}
-                                // deleteCart={deleteCart}
+                                deleteCart={props.deleteCart}
 
                                 showElement={showElement}
                                 

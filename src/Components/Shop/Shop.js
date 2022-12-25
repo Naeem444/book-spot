@@ -27,6 +27,11 @@ const Shop = () => {
         }
        
     }
+    //delete from cart
+    const deleteCart = (cartProduct)=>{
+        const restProducts = cart.filter(product=> product.id != cartProduct.id);
+        setCart(restProducts);
+    }
  
     //modal handling
     const [show, setShow] = useState(false);
@@ -68,7 +73,12 @@ const Shop = () => {
                             </div>
                         </button>
 
-                        <CartModal show={show} onClose={()=>setShow(false)} cartData={cart}></CartModal>
+                        <CartModal 
+                        show={show} 
+                        onClose={()=>setShow(false)} 
+                        cartData={cart}
+                        deleteCart={deleteCart}
+                        ></CartModal>
 
                     </div>
             </div>
